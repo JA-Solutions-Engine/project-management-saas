@@ -14,7 +14,8 @@ build
 
 .vscode
 
-# Ignorando bibliotecas
+# Ignorando ambiente de desenvolvimento
 
-yarn.lock
-requirements.txt
+/.venv
+
+

@@ -1,0 +1,12 @@
+# Bibliotecas
+fastapi
+uvicorn
+sqlalchemy
+psycopg2-binary
+alembic
+pydantic
+python-jose
+passlib[brypt]
+
+
+# Adicionar mais caso seja necessário
