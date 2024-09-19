@@ -1,0 +1,20 @@
+# Ignorando arquivos - deploy
+
+.env
+
+# Ignorando arquivos - node_modules
+
+node_modules
+
+# Ignorando arquivos - build
+
+build
+
+# Ignorando arquivos - .vscode
+
+.vscode
+
+# Ignorando bibliotecas
+
+yarn.lock
+requirements.txt
