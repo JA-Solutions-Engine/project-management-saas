@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+   
+}
+
+header{
+    background-color: black;
+    width: 100%;
+    padding: 20px;
+}
+
+.titulo{
+    display: flex;
+    width: 25%;
+    color: aqua;
+    
+}
+.menu{
+    display: flex;
+    width: 60%;
+    justify-content: flex-end;
+}
+.menu nav a{
+    color: aliceblue;
+    text-decoration: none;
+    padding-right: 20px;
+}
