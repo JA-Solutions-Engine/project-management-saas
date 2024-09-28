@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+.Color_backgoud{
+    background-color: #000000;
+}
+
+
 .container{
     max-width: 1080px;
     margin: 0 auto;
@@ -21,7 +26,9 @@ header{
 .titulo{
     display: flex;
     width: 25%;
-    color: aqua;
+    color: #006414;
+    font-size: 20px;
+    font-weight: bolder;
     
 }
 .menu{
@@ -33,4 +40,67 @@ header{
     color: aliceblue;
     text-decoration: none;
     padding-right: 20px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+.butao{
+    display: flex;
+    align-content: center ;
+}
+
+.butao button{
+    font-size: 17px;
+    padding: 4px 3px;
+    border: 0;
+    border-radius: 6px;
+    color: white;
+    font-family: 400;
+    background: linear-gradient(to right, gold, rgb(255,123,0));
+    cursor: pointer;
+
+}
+.img_start{
+    margin-left: 50px;
+}
+
+.img_start img{
+    max-width:800px;
+    max-height:450px;
+    width: auto;
+    height: auto;
+    border-radius: 52%;
+}
+
+
+.Hero_Section{
+    display: flex;
+    margin: 60px auto;
+    margin-left: 84px;
+    margin-right: 84px;
+    align-items: center;
+    background-color: #000000;
+}
+
+.text_start h1{
+    color: #006414;
+    font-size: 38px;
+    line-height: 46px;
+    font-weight: bolder;
+}
+.text_start p{
+    color: #006414;
+}
+
+.text_start button{
+    font-size: 17px;
+    padding: 4px 3px;
+    border: 0;
+    border-radius: 6px;
+    color: white;
+    font-family: 400;
+    background: linear-gradient(to right, gold, rgb(255,123,0));
+    cursor: pointer;
 }
